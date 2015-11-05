@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="video-js.css" rel="stylesheet">
+</head>
+<body>
+
+<video id="1" class="video-js vjs-default-skin" controls preload="auto" data-setup='{}' src="http://html5-demos.appspot.com/static/video/track/Google_Developer_Stories.webm">
+<track kind="captions" src="en.vtt" srclang="en" label="English" default></track>
+</video>
+
+<script src="video.js"></script>
+<script>
+videojs('1').ready(function() {
+  this.volume(0.1);
+});
+</script>
+
+<br>
+</body>
+</html>
